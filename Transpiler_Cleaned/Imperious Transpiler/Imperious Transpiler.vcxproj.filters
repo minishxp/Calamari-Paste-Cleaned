@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Imperious Transpiler">
+      <UniqueIdentifier>{7b20d13d-70e5-48e3-9657-02c656e07055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imperious Transpiler\Libs">
+      <UniqueIdentifier>{1b7dff5a-32d6-49c5-84b0-3d307cec16c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imperious Transpiler\Bypasses">
+      <UniqueIdentifier>{4a59a062-ca15-4fde-925c-a2389fd6c9f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imperious Transpiler\Roblox">
+      <UniqueIdentifier>{ab0c63a4-4357-4792-b9a1-82f107b7b605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imperious Transpiler\Roblox\Conv">
+      <UniqueIdentifier>{5223b542-7185-459e-a43b-7c3c8338c125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imperious Transpiler\Roblox\Conv\Serializer">
+      <UniqueIdentifier>{167e029a-d41a-4b3b-bc9d-f1d2dd40b7c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imperious Transpiler\Roblox\Conv\Transpiler">
+      <UniqueIdentifier>{677aa6fb-8fd1-4bc7-ac03-d05662700b24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imperious Transpiler\Libs\Lua">
+      <UniqueIdentifier>{b724a8e1-72c5-48bf-b763-5172b531c235}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Imperious Transpiler\Main.cpp">
+      <Filter>Imperious Transpiler</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Roblox\Conv\Transpiler\LuauTranspiler.cpp">
+      <Filter>Imperious Transpiler\Roblox\Conv\Transpiler</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Roblox\Conv\Serializer\LuauSerializer.cpp">
+      <Filter>Imperious Transpiler\Roblox\Conv\Serializer</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lapi.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lauxlib.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lbaselib.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lcode.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\ldblib.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\ldebug.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\ldo.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\ldump.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lfunc.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lgc.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\linit.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\liolib.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\llex.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lmathlib.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lmem.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\loadlib.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lobject.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lopcodes.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\loslib.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lparser.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lstate.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lstring.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lstrlib.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\ltable.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\ltablib.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\ltm.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lundump.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lvm.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lzio.c">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Imperious Transpiler\Roblox\Roblox.hpp">
+      <Filter>Imperious Transpiler\Roblox</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Roblox\Conv\Transpiler\LuauTranspiler.hpp">
+      <Filter>Imperious Transpiler\Roblox\Conv\Transpiler</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Roblox\Conv\Serializer\LuauSerializer.hpp">
+      <Filter>Imperious Transpiler\Roblox\Conv\Serializer</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Bypasses\CallCheck.hpp">
+      <Filter>Imperious Transpiler\Bypasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Bypasses\Retcheck.hpp">
+      <Filter>Imperious Transpiler\Bypasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Roblox\Updated.hpp">
+      <Filter>Imperious Transpiler\Roblox</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lapi.h">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lauxlib.h">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lcode.h">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\ldebug.h">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\ldo.h">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lfunc.h">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lgc.h">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\llex.h">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\llimits.h">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lmem.h">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lobject.h">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lopcodes.h">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lparser.h">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lstate.h">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lstring.h">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\ltable.h">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\ltm.h">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lua.h">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lua.hpp">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\luaconf.h">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lualib.h">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lundump.h">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lvm.h">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lzio.h">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imperious Transpiler\Libs\Lua\.DS_Store">
+      <Filter>Imperious Transpiler\Libs\Lua</Filter>
+    </None>
+  </ItemGroup>
+</Project>

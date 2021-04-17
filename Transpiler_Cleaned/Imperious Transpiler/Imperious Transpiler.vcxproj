@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lapi.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lauxlib.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lbaselib.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lcode.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\ldblib.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\ldebug.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\ldo.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\ldump.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lfunc.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lgc.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\linit.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\liolib.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\llex.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lmathlib.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lmem.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\loadlib.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lobject.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lopcodes.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\loslib.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lparser.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lstate.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lstring.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lstrlib.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\ltable.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\ltablib.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\ltm.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lundump.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lvm.c" />
+    <ClCompile Include="Imperious Transpiler\Libs\Lua\lzio.c" />
+    <ClCompile Include="Imperious Transpiler\Roblox\Conv\Serializer\LuauSerializer.cpp" />
+    <ClCompile Include="Imperious Transpiler\Roblox\Conv\Transpiler\LuauTranspiler.cpp" />
+    <ClCompile Include="Imperious Transpiler\Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Imperious Transpiler\Bypasses\CallCheck.hpp" />
+    <ClInclude Include="Imperious Transpiler\Bypasses\Retcheck.hpp" />
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lapi.h" />
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lauxlib.h" />
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lcode.h" />
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\ldebug.h" />
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\ldo.h" />
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lfunc.h" />
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lgc.h" />
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\llex.h" />
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\llimits.h" />
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lmem.h" />
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lobject.h" />
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lopcodes.h" />
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lparser.h" />
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lstate.h" />
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lstring.h" />
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\ltable.h" />
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\ltm.h" />
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lua.h" />
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lua.hpp" />
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\luaconf.h" />
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lualib.h" />
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lundump.h" />
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lvm.h" />
+    <ClInclude Include="Imperious Transpiler\Libs\Lua\lzio.h" />
+    <ClInclude Include="Imperious Transpiler\Roblox\Conv\Serializer\LuauSerializer.hpp" />
+    <ClInclude Include="Imperious Transpiler\Roblox\Conv\Transpiler\LuauTranspiler.hpp" />
+    <ClInclude Include="Imperious Transpiler\Roblox\Roblox.hpp" />
+    <ClInclude Include="Imperious Transpiler\Roblox\Updated.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imperious Transpiler\Libs\Lua\.DS_Store" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{bc21689e-cee6-4b32-aa3e-4ae98f5e3b94}</ProjectGuid>
+    <RootNamespace>ImperiousTranspiler</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\Imperious\source\repos\Imperious Transpiler\Imperious Transpiler\ImGui;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Imperious\source\repos\Imperious Transpiler\Imperious Transpiler\ImGui;C:\Users\Imperious\source\repos\Imperious Transpiler\Imperious Transpiler\Minhook;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
