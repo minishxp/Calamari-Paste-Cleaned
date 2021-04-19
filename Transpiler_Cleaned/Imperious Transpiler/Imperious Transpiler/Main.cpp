@@ -38,7 +38,6 @@ std::uintptr_t ExecuteScript(int RS, std::string Script)
 	else
 	{
 		r_lua_deserialize(RS, "Transpiler", Bytecode.c_str(), Bytecode.size(), 0);
-		lua_pcall(LS, 0, 0, 0);
 		r_lua_spawn(RS);
 	}
 	return true;
